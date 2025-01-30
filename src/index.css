@@ -7,9 +7,14 @@
   justify-content: space-around;
 } */
 
+/* Global Styles */
 * {
-  font-family: "Fragment Mono";
-  /* display: flex; */
+  box-sizing: border-box;
+  font-family: "Fragment Mono", monospace;
+}
+
+.leadershipP, .aboutMe {
+  text-align: left;
 }
 
 .uvm {
@@ -155,7 +160,8 @@
   /* flex-direction: column; */
   justify-content: space-between;
   align-items: center;
-  height: 35px;
+  /* height: 35px; */
+  min-height: auto;
 }
 
 .navButton {
@@ -182,9 +188,23 @@ a:hover, .email {
 
 
 
+button {
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #9406e0;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
 
-
-
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #9406e0;
+    background-color: #ffffff;
+  }
+}
 
 
 /* :root {
@@ -216,34 +236,5 @@ h1 {
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 } */
