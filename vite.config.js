@@ -7,5 +7,5 @@ dns.setDefaultResultOrder('verbatim')
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/justin-strohsnitter-portfolio/',
+  base: '/',
 })
