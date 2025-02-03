@@ -213,7 +213,7 @@ button:focus-visible {
   }
 
   .movieRecImg, .whereToFishImg, .chosenPathImg {
-    width: 400px;
+    width: 350px;
   }
 
   .movieRecsThumb, .fishThumb, .pathThumb {
