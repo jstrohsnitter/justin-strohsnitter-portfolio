@@ -5,7 +5,7 @@ function WorkExperience() {
 		<h1>Resume</h1>
 		<div className="resumeContainer">
 		<div className="jobsDiv">
-			<div className="jobItemDiv">
+			{/* <div className="jobItemDiv">
 			<h2 className="jobHeader">Pizza Marvin, Providence, Rhode Island — <em>Cook</em>
 			</h2>
 			<p className="jobDates">JANUARY  2024 - JUNE 2024</p>
@@ -14,16 +14,16 @@ function WorkExperience() {
 				<li>Completed various prep projects for the stock of my station</li>
 				<li>Track stock of my station. Clean and reset the restaurant nightly with the team of staff on duty</li>
 			</ul>
-			</div>
+			</div> */}
             
 			<div className="jobItemDiv">
 			<h2 className="jobHeader">F/V Stanley K, False Pass, Alaska — <span style={{fontStyle: "italic"}}> Deckhand, Cook </span></h2>
 			<p className="jobDates">MAY 2019 - SEPTEMBER 2023</p>
 			<ul className="jobBullets">
-				<li>Conduct daily fishing tasks and operations for salmon, halibut, and tanner crab seasons</li>
-				<li>Perform regular maintenance on vessel and all fishing equipment</li>
-				<li>Prepare, cook, and serve three meals a day for crew of 5 during fishing days and off days</li>
-				<li>Track, maintain, stock, and restock all food and kitchen supplies throughout the entire fishing season</li>
+				<li>Conducted daily fishing tasks and operations for salmon, halibut, and tanner crab seasons</li>
+				<li>Performed regular maintenance on vessel and all fishing equipment</li>
+				<li>Prepared, cooked, and served three meals a day for crew of 5 during fishing days and off days</li>
+				<li>Tracked, maintained, and stocked all food and kitchen supplies throughout the entire fishing season</li>
 			</ul>
 			</div>
 
@@ -31,12 +31,12 @@ function WorkExperience() {
 			<h2 className="jobHeader">Pacific Gas and Electric, San Carlos, California — <span style={{fontStyle: "italic"}}> Supervisor, Gas Transmission & Distribution Maintenance and Construction </span></h2>
 			<p className="jobDates">JULY 2015 - DECEMBER 2017</p>
 			<ul className="jobBullets">
-				<li>Supervise a skilled work group of IBEW Union-represented gas construction workers executing a dynamic work flow of planned natural gas facility maintenance and emergency gas infrastructure repair</li>
-				<li>Manage and verify completed project documentation to ensure accurate and complete gas pipeline infrastructure records</li>
-				<li>Engage community members on an individual basis to ensure satisfactory work is completed and a positive public relationship is maintained</li>
-				<li>Facilitate a streamlined interdepartmental approach to work planning from job initiation, construction, and close out</li>
-				<li>Ensure that work is completed in a manner that leverages public and employee safety, and is in compliance with internal standard and California Public Utility Commission regulations</li>
-				<li>Respond to natural gas emergencies and assist electrical operations during storm events and disaster recovery</li>
+				<li>Supervised a skilled work group of IBEW Union-represented gas construction workers executing a dynamic work flow of planned natural gas facility maintenance and emergency gas infrastructure repair</li>
+				<li>Managed and verified completed project documentation to ensure accurate and complete gas pipeline infrastructure records</li>
+				<li>Engaged community members on an individual basis to ensure satisfactory work was completed and a positive public relationship was maintained</li>
+				<li>Facilitated a streamlined interdepartmental approach to work planning from job initiation, construction, and close out</li>
+				<li>Ensured that work was completed in a manner that leverages public and employee safety, and was in compliance with internal standards and California Public Utility Commission regulations</li>
+				<li>Responded to natural gas emergencies and assisted electrical operations during storm events and disaster recovery</li>
 			</ul>
 			</div>
 
@@ -44,12 +44,12 @@ function WorkExperience() {
 			<h2 className="jobHeader">National Grid, Waltham, Massachusetts — <span style={{fontStyle: "italic"}}> Supervisor of Gas Operations, Maintenance and Construction </span></h2>
 			<p className="jobDates">NOVEMBER 2013 - JULY 2015</p>
 			<ul className="jobBullets">
-				<li>Manage a dynamic workforce of 50+ Local 12003 United Steelworkers Union employees as well as outside contractors who specialize in natural gas facility construction and maintenance</li>
-				<li>Place a high emphasis on safety and work closely with management and union personale to ensure company and OSHA safety standards are met on and off of the job site.</li>
-				<li>Coordinate with internal departments on projects including engineering, gas control, emergency planning, and senior management</li>
-				<li>Coordinate project scheduling and permitting with external agencies including local municipalities and Massachusetts State Agencies as required</li>
-				<li>Assist in fleet management and facilities management including snow operations, fleet repair scheduling, equipment procurement, and yard maintenance</li>
-				<li>Perform inspections for construction quality and code adherence</li>
+				<li>Managed a dynamic workforce of 50+ Local 12003 United Steelworkers Union employees as well as outside contractors who specialized in natural gas facility construction and maintenance</li>
+				<li>Placed a high emphasis on safety and worked closely with management and union personale to ensure company and OSHA safety standards are met on and off of the job site.</li>
+				<li>Coordinated with internal departments on projects including engineering, gas control, emergency planning, and senior management</li>
+				<li>Coordinated project scheduling and permitting with external agencies including local municipalities and Massachusetts State Agencies as required</li>
+				<li>Assisted in fleet management and facilities management including snow operations, fleet repair scheduling, equipment procurement, and yard maintenance</li>
+				<li>Performed inspections for construction quality and code adherence</li>
 			</ul>
 			</div>
 
@@ -68,7 +68,7 @@ function WorkExperience() {
 		<div className="skillsDiv">
 			<h3 className="skillsHeader">Skills</h3>
 			<h4 className="technicalSkills">Technical Skills</h4>
-			<p className="techSkillsP">JavaScript, Python, PostgreSQL, mySQL, C#, .Net, React, Django, Express, CSS, HTML, Testing, TypeScript, GitHub, REST Architecture, AWS, Node, MongoDB, Mongoose, jQuery, WordPress, Microsoft Suite, Visio, SolidWorks, SAP, and MATLAB</p>
+			<p className="techSkillsP">JavaScript, Python, PostgreSQL, mySQL, C#, .Net, React, Django, Express, CSS, HTML, Testing, TypeScript, GitHub, REST Architecture, AWS, Node, MongoDB, Mongoose, jQuery, Linux, WordPress, Microsoft Suite, Visio, SolidWorks, SAP, and MATLAB</p>
 			<h4 className="leadershipHeader">Leadership</h4>
 			<p className="leadershipP">Attended multiple Military Leadership Courses: Leader Development and Assessment Course (LDAC), Engineer Basic Officer Leaders Course (EBOLC), Sapper Leader Course.</p>
 		

@@ -206,6 +206,66 @@ button:focus-visible {
   }
 }
 
+@media (max-width: 450px) {
+
+   #root {
+    padding: 0px !important;
+  }
+
+  .movieRecImg, .whereToFishImg, .chosenPathImg {
+    width: 400px;
+  }
+
+  .movieRecsThumb, .fishThumb, .pathThumb {
+    height: fit-content;
+    margin-bottom: 30px;
+  }
+
+  .thumbnailDiv {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px ridge black;
+    width: 100vw; */
+    padding: 0;
+    margin: 0;
+  }
+
+  .resumeContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .jobsDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    border: none !important;
+  }
+
+  .jobBullets {
+    width: 100%;
+    text-align: left;
+  }
+
+  .skillsDiv {
+    width: 100%;
+  }
+
+  .navBarDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 25%;
+    /* margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    overflow: auto; */
+  }
+}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
