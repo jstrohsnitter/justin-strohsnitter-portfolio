@@ -7,7 +7,7 @@ function WebDev({ changePage }) {
 			<h1 className="webDevHeader">Portfolio</h1>
 			<div className="thumbnailDiv">
 				<div className="movieRecsThumb">
-					<img src="./public/assets/Screen Shot 2025-01-23 at 4.46.01 PM.png" className="mrImage"/>
+					<img src="./assets/Screen Shot 2025-01-23 at 4.46.01 PM.png" className="mrImage"/>
 					<button className="movieRecsButton" onClick={changePage} value="movieRecs">Movie Watchlist App</button>
 				</div>
 				<div className="fishThumb">
