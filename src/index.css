@@ -206,10 +206,62 @@ button:focus-visible {
   }
 }
 
+@media (min-width: 450px) {
+  .hamburgerDiv {
+    display: none;
+  }
+}
+
 @media (max-width: 450px) {
 
    #root {
     padding: 0px !important;
+    /* position: fixed; */
+  }
+
+.content {
+  padding-top: 60px;
+}
+
+  .navButtonHam {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+
+  }
+
+  .navContainer {
+    position: relative;
+    width: 100%;
+    height: auto; /* Adjust as needed */
+}
+
+  .hamburgerDiv {
+    position: fixed;
+    right: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    /* border-radius: 100%; */
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: rgb(255, 123, 0);
+    width: fit-content;
+    /* margin-right: 0px; */
+  }
+
+  .hamListDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 55%;
+    /* margin-top: 50px; */
+    /* border: 2px solid red; */
   }
 
   .movieRecImg, .whereToFishImg, .chosenPathImg {
@@ -253,7 +305,7 @@ button:focus-visible {
   }
 
   .navBarDiv{
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;

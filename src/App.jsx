@@ -10,6 +10,7 @@ import WorkExperience from './components/WorkExperience'
 import MovieRecs from './components/ProjectComponents/MovieRecs'
 import ChosenPath from './components/ProjectComponents/ChosenPath'
 import WhereToFish from './components/ProjectComponents/WhereToFish'
+import NavMobile from './components/NavMobile'
 
 const App = () => {
 
@@ -22,9 +23,13 @@ const App = () => {
   return (
     <>
     {/* <img src='/assets/IMG_4118.jpg' className='bgPhoto'/> */}
+    {/* is width is smaller than 450px, render hamburger menu */}
+    <div className='navContainer'>
+    <NavMobile changePage={changePage}/>
+    </div>
     {/* nav bar on top of page, always showing */}
     <NavBar changePage={changePage}/>
-
+<div className='content'>
     {/* home page shown by default */}
     {page === "home" ? <Home/> : ""}
 
@@ -37,6 +42,7 @@ const App = () => {
     {page === "movieRecs" ? <MovieRecs/> : ""}
     {page === "chosenPath" ? <ChosenPath/> : ""}
     {page === "whereToFish" ? <WhereToFish/> : ""}
+</div>
 
     </>
   );
