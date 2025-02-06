@@ -30,6 +30,8 @@
 
     "dns2": "^2.1.0",
 
+    "hamburger-react": "^2.5.2",
+
     "native-dns": "^0.7.0",
 
     "react": "^18.3.1",
